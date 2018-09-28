@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run pack && npm run compile",
+    "pack": "echo 'Packing' && webpack",
+    "compile": "echo 'Babeling' && babel dist -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {}
+}
