@@ -1,5 +1,5 @@
 class Task {
-    constructor(name, id) {
+    constructor(name, id, done = false) {
         this.name = name;
         this.id = id;
         this.done = false;
