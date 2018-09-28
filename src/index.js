@@ -18,4 +18,5 @@ function handleButtonClick(e) {
     return;
 
   todo.addTask(taskInput.value);
+  taskInput.value = '';
 }
