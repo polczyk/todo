@@ -6,4 +6,16 @@
 
 .task-finished {
     text-decoration: line-through;
+.task {
+    display: flex;
+}
+
+.flex-left {
+    flex: 1 1 100%;
+}
+
+.flex-right {
+    flex: 1 1 auto;
+}
+
 }
