@@ -59,3 +59,9 @@ ul {
 .task i {
     font-size: 1.5em;
 }
+
+@media (max-width: 800px) {
+    #app {
+        width: 100%;
+    }
+}
