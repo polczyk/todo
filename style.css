@@ -12,23 +12,35 @@
 
 ul {
     list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
 }
-
 
 .task {
+    border: 1px solid rgba(1, 1, 1, 0.2);
+    border-radius: 2px;
     display: flex;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
-.flex-left {
+.task .flex-left {
     flex: 1 1 100%;
+    text-align: left;
 }
 
-.flex-right {
-    flex: 1 1 auto;
+.task .flex-right {
+    text-align: left;
+    flex: 1 1 0%;
 }
 
 .task button {
     border: none;
     background: rgba(1, 1, 1, 0);
     cursor: pointer;
+}
+
+.task i {
+    font-size: 1.5em;
 }
