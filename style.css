@@ -6,6 +6,19 @@
     width: 40%;
 }
 
+#button {
+    visibility: hidden;
+}
+
+#task-input {
+    border: 1px solid rgba(1, 1, 1, 0.3);
+    border-radius: 3px;
+    font-size: 2em;
+    padding: 2% 0;
+    text-align: center;
+    width: 100%;
+}
+
 .task-finished {
     text-decoration: line-through;
 }
