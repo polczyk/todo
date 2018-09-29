@@ -39,8 +39,6 @@ class Task {
         element.appendChild(div2);
 
         element.dataset.id = this.id;
-        element.appendChild(span);
-        element.appendChild(button);
 
         return element;
     }
