@@ -22,9 +22,10 @@ class Task {
 
         const div1 = document.createElement('div');
         div1.classList.add('flex-left');
+        div1.addEventListener('click', e => this.toggle());
+
         const span = document.createElement('span');
         span.innerText = this.name;
-        span.addEventListener('click', e => this.toggle());
         div1.appendChild(span);
         element.appendChild(div1);
 
