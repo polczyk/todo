@@ -1,7 +1,9 @@
 #app {
-    width: 50%;
+    background: #FBEBE8;
+    font-family: consolas;
     margin: auto;
     text-align: center;
+    width: 40%;
 }
 
 .task-finished {
