@@ -26,6 +26,9 @@ class Task {
         const button = document.createElement('button');
         button.innerText = 'Remove';
         button.addEventListener('click', e => this.remove(this));
+        const icon = document.createElement('i');
+        icon.classList.add('fas', 'fa-times');
+        button.appendChild(icon);
 
         element.dataset.id = this.id;
         element.appendChild(span);
