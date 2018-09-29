@@ -26,4 +26,8 @@ ul {
     flex: 1 1 auto;
 }
 
+.task button {
+    border: none;
+    background: rgba(1, 1, 1, 0);
+    cursor: pointer;
 }
