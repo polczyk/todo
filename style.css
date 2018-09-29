@@ -2,8 +2,7 @@
     box-sizing: border-box; 
 }
 #app {
-    background: #FBEBE8;
-    font-family: consolas;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: auto;
     text-align: center;
     width: 40%;
