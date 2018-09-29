@@ -43,7 +43,7 @@ class Todo {
   }
 
   fillTasks(ul) {
-    let storedTasks = localStorage.getItem('tasks');
+    let storedTasks = localStorage.getItem('tasks') || '[]';
     storedTasks = JSON.parse(storedTasks);
 
     storedTasks.forEach(t => {
