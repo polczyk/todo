@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box; 
+}
 #app {
     background: #FBEBE8;
     font-family: consolas;
